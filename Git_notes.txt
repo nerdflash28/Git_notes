@@ -1,0 +1,36 @@
+product Life_cycle
+        |____________> : Developer (Sharp minded)
+        |____________> : Testing (Freshers)
+        |____________> : Deployment/integration (Managers: Experienced)
+
+
+if bugs are found: Deployment,Testing > Developers
+
+# how to connect local repository to remote repository:
+        step 1: first change the branch from main to master on gitHub, by going to settings>repository>change main to master
+        step 2: git clone URL
+
+# how to add files to git tracking
+        1. git add -A
+        2. git add .
+        3. git add <FileName>
+        4. git add <FileName><FileName>
+        5. git add *
+
+# how to check status of git staging area
+        -> git status
+
+# how to remove files from git staging are
+
+# how to commit
+        -> git commit -m "Message to this commit"
+
+# how to config git for username and email
+        -> git config user.email "Email"
+        -> git config user.username "username"
+
+# how to push to remote branch
+-> git push -u origin {branch_name}
+        username: gitHub_username
+        password: repository_token
+
