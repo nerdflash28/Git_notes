@@ -34,3 +34,5 @@ if bugs are found: Deployment,Testing > Developers
         username: gitHub_username
         password: repository_token
 
+# how to remove the files from staging area
+-> git reset
