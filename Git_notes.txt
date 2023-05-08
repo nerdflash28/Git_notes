@@ -55,4 +55,7 @@ if bugs are found: Deployment,Testing > Developers
 -> git commit -m "f1 modified and f2 added"
 
 # how to rollback to previous git changes
--> git rever [commit_id]
+-> git revert [commit_id]
+
+# restore vs revert
+-> 
