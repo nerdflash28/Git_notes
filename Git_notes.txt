@@ -93,5 +93,19 @@ Description
 -> to remove previous git account from local machine, control panel -> user account -> Credential Managers -> Windows Credential
 (Control Panel\User Accounts\Credential Manager)
 
+# how to pull from remote origin
+-> git pull origin main
+
+# Webhooks
+-> 
+
+# how to check remote repository
+-> git remote show origin
+
+# how to merge conflicts between remote and local repository
+-> git pull origin master --allow-unrelated-histories
+
+
+
 
 
