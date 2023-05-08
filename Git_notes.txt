@@ -86,5 +86,12 @@ Description
 -> first checkout to master
 -> git merge course-web
 
+# How to push remote branch
+-> git push -u origin main
+
+# how to login into github/change account on gitHub
+-> to remove previous git account from local machine, control panel -> user account -> Credential Managers -> Windows Credential
+(Control Panel\User Accounts\Credential Manager)
+
 
 
