@@ -29,10 +29,30 @@ if bugs are found: Deployment,Testing > Developers
         -> git config user.email "Email"
         -> git config user.username "username"
 
+# how to config git for username and email for git repository
+        -> git config --global user.email "Email"
+        -> git config --global user.username "username"
+
 # how to push to remote branch
 -> git push -u origin {branch_name}
         username: gitHub_username
         password: repository_token
 
 # how to remove the files from staging area
--> git reset
+        -> git reset
+
+# how to initialize a git repo
+        -> git init
+
+# how to remove the file from tracking area, we can remove the file from cached area 
+        -> git rm --cached f1.py
+
+# git is crucial for DevOps 
+
+# how to check changes in file
+-> git log
+
+-> git commit -m "f1 modified and f2 added"
+
+# how to rollback to previous git changes
+-> git rever [commit_id]

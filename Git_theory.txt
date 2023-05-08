@@ -1,0 +1,32 @@
+-> Git is version control system
+-> it helps manages your software project files
+-> it keeps a history of events that happen with the files
+-> As a developer you always want to modify and improve your code
+-> thus once a functionality is developed you experiment, with that code to make it better
+-> However in case of problem you want to revert back to earlier working code
+-> the version control system helps you achieve this
+-> it keeps the files as a old version when they are modified
+-> thus at any moment you can roll back to earlier files
+-> Anotehr advantages of Git is that is allows multiple developer to collaborate and work on a single project
+-> also these multiple devlopers can work independently without affect each other file
+-> Later code can be mereged
+-> Git Hub is a web based version control system using git
+-> it is open site for developers to share their code with other developers
+-> it allows developers to contribute to each other's code
+-> Git Hub provides developers with a platform to discuss issues they face during development
+-> The developers from all over world can suggest solutions to such problems
+-> this is most helpful for open source project
+-> CVS(Earlier version control software used) subversion,Perforce, Bazaar are some of the other version control systems.
+-> Most these systems store information as a list of file-based changes
+-> these systems think of the information they keep as a set of files and the changes made to each file over time
+
+-> working area : contains current verison of files
+-> staged area : status of files is monitors, choose which files to be  
+-> commit area : this area contains the files, where all the snapshot of the files are stored. it stores your previous state of git repository
+
+# Git was developed by Linus Torvald
+
+how to initialize a git repo
+-> git init
+
+
