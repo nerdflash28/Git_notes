@@ -17,6 +17,9 @@ if bugs are found: Deployment,Testing > Developers
         4. git add <FileName><FileName>
         5. git add *
 
+# how to remove files from git staging area
+        1. git rm <FileName>
+
 # how to check status of git staging area
         -> git status
 
@@ -41,6 +44,10 @@ if bugs are found: Deployment,Testing > Developers
 # how to remove the files from staging area
         -> git reset
 
+----------------------------
+|       8th May 2023       |                    
+----------------------------
+
 # how to initialize a git repo
         -> git init
 
@@ -58,4 +65,26 @@ if bugs are found: Deployment,Testing > Developers
 -> git revert [commit_id]
 
 # restore vs revert
--> 
+-> restore, changes from staging area to working area
+-> revert, bring change from commit are to working area
+
+# how to check current branch
+-> git branch
+-> git branch -M main
+Description
+-> -M : this parameter will be used to rename the master branch
+
+# how to create a new branch (Only accept 1 argument)
+-> git branch <new_branch_name>
+
+# how to switch branch, this will create a new branch if do not exist, depends on the version of git is being used
+-> git checkout <branch_name>
+
+# git recommend that main/master branch_name should contain final  production ready code
+
+# To merge code
+-> first checkout to master
+-> git merge course-web
+
+
+
