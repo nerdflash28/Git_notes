@@ -1,7 +1,7 @@
 # Git_notes
 This Repository contains notes about GitHub
 
-<details>
+<details >
   <summary>How to setup local repository as git Repository</summary>
   
  * `git init`
