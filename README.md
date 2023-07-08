@@ -1,5 +1,5 @@
 # Git_notes
-This Repository contains notes about GitHub
+## This Repository contains notes about GitHub
 
 <details >
   <summary>How to setup local repository as git Repository</summary>
